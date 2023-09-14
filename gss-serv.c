@@ -56,12 +56,12 @@ static ssh_gssapi_client gssapi_client =
 ssh_gssapi_mech gssapi_null_mech =
     { NULL, NULL, {0, NULL}, NULL, NULL, NULL, NULL};
 
-#if defined(KRB5) || defined (GSSAPI_SSPI)
+#ifdef KRB5
 extern ssh_gssapi_mech gssapi_kerberos_mech;
 #endif
 
 ssh_gssapi_mech* supported_mechs[]= {
-#if defined (KRB5) || defined (GSSAPI_SSPI)
+#ifdef KRB5
 	&gssapi_kerberos_mech,
 #endif
 	&gssapi_null_mech,

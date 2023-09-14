@@ -52,7 +52,7 @@ AuthorizedKeysFile	.ssh/authorized_keys
 #PermitEmptyPasswords no
 
 # GSSAPI options
-#GSSAPIAuthentication no
+GSSAPIAuthentication yes
 
 #AllowAgentForwarding yes
 #AllowTcpForwarding yes

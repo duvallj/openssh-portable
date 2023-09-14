@@ -311,7 +311,6 @@
     <ClCompile Include="$(OpenSSH-Src-Path)\contrib\win32\win32compat\spawn.c" />
     <ClCompile Include="$(OpenSSH-Src-Path)\contrib\win32\win32compat\signal_wait.c" />
     <ClCompile Include="$(OpenSSH-Src-Path)\contrib\win32\win32compat\win32_pty.c" />
-    <ClCompile Include="$(OpenSSH-Src-Path)\contrib\win32\win32compat\gss-sspi.c" />
     <ClCompile Include="sshTelemetry.c" />
   </ItemGroup>
   <ItemGroup>
@@ -361,7 +360,6 @@
     <ClInclude Include="$(OpenSSH-Src-Path)\contrib\win32\win32compat\inc\spawn.h" />
     <ClInclude Include="$(OpenSSH-Src-Path)\contrib\win32\win32compat\inc\net\if.h" />
     <ClInclude Include="$(OpenSSH-Src-Path)\contrib\win32\win32compat\inc\time.h" />
-    <ClInclude Include="$(OpenSSH-Src-Path)\contrib\win32\win32compat\inc\gssapi.h" />
     <ClInclude Include="MicrosoftTelemetry.h" />
     <ClInclude Include="sshTelemetry.h" />
     <ClInclude Include="sshTelemetryInternal.h" />
