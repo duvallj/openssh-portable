@@ -8,7 +8,10 @@
     <ZLibVersion>1.3</ZLibVersion>
     <fido2Version>1.13.0</fido2Version>
     <!--libcbor version is not used in the build; it is needed for pipeline compliance tasks-->  
-    <libcborVersion>0.10.1</libcborVersion> 
+    <libcborVersion>0.10.1</libcborVersion>
+    <!-- NOTE(duvallj): you should change these to the path you installed kerberos for windows at -->
+    <krb5-Path>D:\krb5\</krb5-Path>
+    <krb5-x64-Path>D:\krb5\lib\</krb5-x64-Path>
     <LibreSSL-Path>$(SolutionDir)\LibreSSL\sdk\</LibreSSL-Path>
     <LibreSSL-x86-Path>$(SolutionDir)\LibreSSL\bin\desktop\x86\</LibreSSL-x86-Path>
     <LibreSSL-x64-Path>$(SolutionDir)\LibreSSL\bin\desktop\x64\</LibreSSL-x64-Path>

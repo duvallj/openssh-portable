@@ -188,7 +188,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_WIN32_WINNT=0x601;WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
-      <AdditionalIncludeDirectories>$(SolutionDir);$(LibreSSL-Path)include;$(ZLib-Path);$(OpenSSH-Src-Path)includes;$(OpenSSH-Src-Path);$(OpenSSH-Src-Path)contrib\win32\win32compat;$(OpenSSH-Src-Path)libkrb;$(OpenSSH-Src-Path)libkrb\libKrb5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(krb5-Path)include;$(LibreSSL-Path)include;$(ZLib-Path);$(OpenSSH-Src-Path)includes;$(OpenSSH-Src-Path);$(OpenSSH-Src-Path)contrib\win32\win32compat;$(OpenSSH-Src-Path)libkrb;$(OpenSSH-Src-Path)libkrb\libKrb5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CompileAs>CompileAsC</CompileAs>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -215,7 +215,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_WIN32_WINNT=0x601;WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
-      <AdditionalIncludeDirectories>$(SolutionDir);$(LibreSSL-Path)include;$(ZLib-Path);$(OpenSSH-Src-Path)includes;$(OpenSSH-Src-Path);$(OpenSSH-Src-Path)contrib\win32\win32compat;$(OpenSSH-Src-Path)libkrb;$(OpenSSH-Src-Path)libkrb\libKrb5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(krb5-Path)include;$(LibreSSL-Path)include;$(ZLib-Path);$(OpenSSH-Src-Path)includes;$(OpenSSH-Src-Path);$(OpenSSH-Src-Path)contrib\win32\win32compat;$(OpenSSH-Src-Path)libkrb;$(OpenSSH-Src-Path)libkrb\libKrb5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CompileAs>CompileAsC</CompileAs>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -241,7 +241,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_WIN32_WINNT=0x601;WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
-      <AdditionalIncludeDirectories>$(SolutionDir);$(LibreSSL-Path)include;$(ZLib-Path);$(OpenSSH-Src-Path)includes;$(OpenSSH-Src-Path);$(OpenSSH-Src-Path)contrib\win32\win32compat;$(OpenSSH-Src-Path)libkrb;$(OpenSSH-Src-Path)libkrb\libKrb5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(krb5-Path)include;$(LibreSSL-Path)include;$(ZLib-Path);$(OpenSSH-Src-Path)includes;$(OpenSSH-Src-Path);$(OpenSSH-Src-Path)contrib\win32\win32compat;$(OpenSSH-Src-Path)libkrb;$(OpenSSH-Src-Path)libkrb\libKrb5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CompileAs>CompileAsC</CompileAs>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -267,7 +267,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_WIN32_WINNT=0x601;WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
-      <AdditionalIncludeDirectories>$(SolutionDir);$(LibreSSL-Path)include;$(ZLib-Path);$(OpenSSH-Src-Path)includes;$(OpenSSH-Src-Path);$(OpenSSH-Src-Path)contrib\win32\win32compat;$(OpenSSH-Src-Path)libkrb;$(OpenSSH-Src-Path)libkrb\libKrb5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(krb5-Path)include;$(LibreSSL-Path)include;$(ZLib-Path);$(OpenSSH-Src-Path)includes;$(OpenSSH-Src-Path);$(OpenSSH-Src-Path)contrib\win32\win32compat;$(OpenSSH-Src-Path)libkrb;$(OpenSSH-Src-Path)libkrb\libKrb5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CompileAs>CompileAsC</CompileAs>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -295,7 +295,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>_WIN32_WINNT=0x601;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
-      <AdditionalIncludeDirectories>$(SolutionDir);$(LibreSSL-Path)include;$(ZLib-Path);$(OpenSSH-Src-Path)includes;$(OpenSSH-Src-Path);$(OpenSSH-Src-Path)contrib\win32\win32compat;$(OpenSSH-Src-Path)libkrb;$(OpenSSH-Src-Path)libkrb\libKrb5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(krb5-Path)include;$(LibreSSL-Path)include;$(ZLib-Path);$(OpenSSH-Src-Path)includes;$(OpenSSH-Src-Path);$(OpenSSH-Src-Path)contrib\win32\win32compat;$(OpenSSH-Src-Path)libkrb;$(OpenSSH-Src-Path)libkrb\libKrb5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <ControlFlowGuard>Guard</ControlFlowGuard>
       <AdditionalOptions>/Gy /ZH:SHA_256 /Qspectre %(AdditionalOptions)</AdditionalOptions>
@@ -324,7 +324,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>_WIN32_WINNT=0x601;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
-      <AdditionalIncludeDirectories>$(SolutionDir);$(LibreSSL-Path)include;$(ZLib-Path);$(OpenSSH-Src-Path)includes;$(OpenSSH-Src-Path);$(OpenSSH-Src-Path)contrib\win32\win32compat;$(OpenSSH-Src-Path)libkrb;$(OpenSSH-Src-Path)libkrb\libKrb5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(krb5-Path)include;$(LibreSSL-Path)include;$(ZLib-Path);$(OpenSSH-Src-Path)includes;$(OpenSSH-Src-Path);$(OpenSSH-Src-Path)contrib\win32\win32compat;$(OpenSSH-Src-Path)libkrb;$(OpenSSH-Src-Path)libkrb\libKrb5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <WholeProgramOptimization>true</WholeProgramOptimization>
       <ControlFlowGuard>Guard</ControlFlowGuard>
@@ -354,7 +354,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>_WIN32_WINNT=0x601;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
-      <AdditionalIncludeDirectories>$(SolutionDir);$(LibreSSL-Path)include;$(ZLib-Path);$(OpenSSH-Src-Path)includes;$(OpenSSH-Src-Path);$(OpenSSH-Src-Path)contrib\win32\win32compat;$(OpenSSH-Src-Path)libkrb;$(OpenSSH-Src-Path)libkrb\libKrb5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(krb5-Path)include;$(LibreSSL-Path)include;$(ZLib-Path);$(OpenSSH-Src-Path)includes;$(OpenSSH-Src-Path);$(OpenSSH-Src-Path)contrib\win32\win32compat;$(OpenSSH-Src-Path)libkrb;$(OpenSSH-Src-Path)libkrb\libKrb5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <WholeProgramOptimization>true</WholeProgramOptimization>
       <ControlFlowGuard>Guard</ControlFlowGuard>
@@ -384,7 +384,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>_WIN32_WINNT=0x601;_LIB;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
-      <AdditionalIncludeDirectories>$(SolutionDir);$(LibreSSL-Path)include;$(ZLib-Path);$(OpenSSH-Src-Path)includes;$(OpenSSH-Src-Path);$(OpenSSH-Src-Path)contrib\win32\win32compat;$(OpenSSH-Src-Path)libkrb;$(OpenSSH-Src-Path)libkrb\libKrb5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(krb5-Path)include;$(LibreSSL-Path)include;$(ZLib-Path);$(OpenSSH-Src-Path)includes;$(OpenSSH-Src-Path);$(OpenSSH-Src-Path)contrib\win32\win32compat;$(OpenSSH-Src-Path)libkrb;$(OpenSSH-Src-Path)libkrb\libKrb5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <WholeProgramOptimization>true</WholeProgramOptimization>
       <ControlFlowGuard>Guard</ControlFlowGuard>

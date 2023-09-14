@@ -588,6 +588,12 @@
 /* Define if you have isblank(3C). */
 #define HAVE_ISBLANK 1
 
+/* Define if you have krb5_free_error_message */
+#define HAVE_KRB5_FREE_ERROR_MESSAGE 1
+
+/* Define if you have krb5_get_error_message */
+#define HAVE_KRB5_GET_ERROR_MESSAGE 1
+
 /* Define to 1 if you have the <lastlog.h> header file. */
 /* #undef HAVE_LASTLOG_H */
 
@@ -1277,7 +1283,7 @@
 #define IP_TOS_IS_BROKEN 1
 
 /* Define if you want Kerberos 5 support */
-/* #undef KRB5 */
+#define KRB5
 
 /* Define if pututxline updates lastlog too */
 /* #undef LASTLOG_WRITE_PUTUTXLINE */
