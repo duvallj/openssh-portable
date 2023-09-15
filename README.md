@@ -1,3 +1,35 @@
+# OpenSSH with MIT Kerberos Support for Windows
+
+I made this project because I wanted to log into CMU servers from my Windows
+machine without having to enter my password every time. Built-in Windows
+`ssh.exe` uses the built-in Windows Kerberos support, but that doesn't work
+with CMU servers from a personal laptop, so we have to use MIT Kerberos
+instead.
+
+## Installation Instructions
+
+1. Install [Kerberos For Windows](https://web.mit.edu/kerberos/dist/index.html#kfw-4.1)
+   into a directory somewhere. Or you can compile it from source yourself; it's
+   actually not that hard honestly (follow the instructions (minus the part
+   about the WIX installer) in the `./src/windows/README` file in the source
+   tarball).
+2. Edit the file `./contrib/win32/openssh/config/paths.targets` to point the
+   `krb5-Path` variable to just before the `include` directory in your Kerberos
+   installation, and the `krb5-x64-Path` to the directory that contains all the
+   `*.lib` files.
+3. Download Visual Studio, selecting "Desktop Development With C++" and adding
+   the latest Windows SDK.
+4. Open the `./contrib/win32/openssh/Win32-OpenSSH.sln` file in Visual Studio
+   and click "Build &gt; Build Solution"
+
+Note that only x64 builds are supported. You can edit the
+`./contrib/win32/openssh/{sshd,ssh}.vcxproj` files to add more library support
+if you are really weird and running Windows on a different architecture.
+
+More detailed instructions can be found in [the original wiki](https://github.com/PowerShell/Win32-OpenSSH/wiki/Building-OpenSSH-for-Windows-(using-LibreSSL-crypto). Good luck!
+
+---
+
 # Portable OpenSSH
 
 [![C/C++ CI](https://github.com/openssh/openssh-portable/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/openssh/openssh-portable/actions/workflows/c-cpp.yml)
