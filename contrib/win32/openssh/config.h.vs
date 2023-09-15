@@ -182,7 +182,7 @@
 
 /* Define this if you want GSSAPI
  support in the version 2 protocol */
-/* #undef GSSAPI */
+#define GSSAPI 1
 
 /* Define if you want to use shadow password expire field */
 /* #undef HAS_SHADOW_EXPIRE */
@@ -286,6 +286,10 @@
 /* Define to 1 if you have the declaration of `GLOB_NOMATCH', and to 0 if you
    don't. */
 #define HAVE_DECL_GLOB_NOMATCH 1
+
+/* Define to 1 if you have the declaration of `GSS_C_NT_HOSTBASED_SERVICE', and
+   to 0 if you don't. */
+#define HAVE_DECL_GSS_C_NT_HOSTBASED_SERVICE 1
 
 /* Define to 1 if you have the declaration of `h_errno', and to 0 if you
    don't. */
@@ -523,7 +527,7 @@
 /* #undef HAVE_GSSAPI_GENERIC_H */
 
 /* Define to 1 if you have the <gssapi/gssapi_generic.h> header file. */
-#define HAVE_GSSAPI_GSSAPI_GENERIC_H 1
+/* #undef HAVE_GSSAPI_GSSAPI_GENERIC_H */
 
 /* Define to 1 if you have the <gssapi/gssapi.h> header file. */
 #define HAVE_GSSAPI_GSSAPI_H 1
@@ -1283,7 +1287,7 @@
 #define IP_TOS_IS_BROKEN 1
 
 /* Define if you want Kerberos 5 support */
-#define KRB5
+#define KRB5 1
 
 /* Define if pututxline updates lastlog too */
 /* #undef LASTLOG_WRITE_PUTUTXLINE */
